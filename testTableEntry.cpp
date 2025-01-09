@@ -2,7 +2,7 @@
 #include "TableEntry.h"
 
 int main(){
-    std::cout << std::boolalpha; // configuramos cout para mostrar true/false en lugar de 0/1.
+    std::cout << std::boolalpha; 
 
     TableEntry<int> e1("Catorze", 14);
     TableEntry<int> e2("Trenta-tres", 33);
